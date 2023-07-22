@@ -6,7 +6,7 @@ const Name = () => {
 
 	return (
 		<div>
-			<h4>{user?.displayName}</h4>
+			<h4 className="text-[18px] font-medium cursor-pointer">{user?.displayName}</h4>
 		</div>
 	);
 };

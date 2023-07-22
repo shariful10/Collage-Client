@@ -47,11 +47,7 @@ const Navbar = () => {
 											logOut();
 											setIsOpen(false);
 										}}
-										className={({ isActive }) =>
-											isActive
-												? "active mx-4 text-[18px] font-medium"
-												: "default mx-4 text-[18px] font-medium"
-										}
+										className="mx-4 text-[18px] font-medium hover:text-blue-400 cursor-pointer"
 									>
 										Logout
 									</li>
