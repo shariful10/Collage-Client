@@ -1,21 +1,21 @@
 import { createContext, useEffect, useState } from "react";
-// import {
-// 	GoogleAuthProvider,
-// 	createUserWithEmailAndPassword,
-// 	getAuth,
-// 	onAuthStateChanged,
-// 	sendPasswordResetEmail,
-// 	signInWithEmailAndPassword,
-// 	signInWithPopup,
-// 	signOut,
-// 	updateProfile,
-// } from "firebase/auth";
-// import { app } from './../Firebase/firebase.config';
+import {
+	GoogleAuthProvider,
+	createUserWithEmailAndPassword,
+	getAuth,
+	onAuthStateChanged,
+	sendPasswordResetEmail,
+	signInWithEmailAndPassword,
+	signInWithPopup,
+	signOut,
+	updateProfile,
+} from "firebase/auth";
+import { app } from './../Firebase/firebase.config';
 
 export const AuthContext = createContext(null);
 
-// const auth = getAuth(app);
-// const googleProvider = new GoogleAuthProvider();
+const auth = getAuth(app);
+const googleProvider = new GoogleAuthProvider();
 
 const AuthProvider = ({ children }) => {
 	const [user, setUser] = useState(null);
@@ -53,16 +53,16 @@ const AuthProvider = ({ children }) => {
 		});
 	};
 
-	// useEffect(() => {
-	// 	const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
-	// 		setUser(currentUser);
-	// 		// console.log("current user", currentUser);
-	// 		setLoading(false);
-	// 	});
-	// 	return () => {
-	// 		return unsubscribe();
-	// 	};
-	// }, []);
+	useEffect(() => {
+		const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+			setUser(currentUser);
+			// console.log("current user", currentUser);
+			setLoading(false);
+		});
+		return () => {
+			return unsubscribe();
+		};
+	}, []);
 
 	const authInfo = {
 		user,

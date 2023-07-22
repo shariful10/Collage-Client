@@ -19,7 +19,7 @@ const Navbar = () => {
 						<nav>
 							<ul className="hidden lg:flex">
 								{navItems.map(({ path, title }) => (
-									<li className="mx-4 text-[18px] font-medium">
+									<li key={title} className="mx-4 text-[18px] font-medium">
 										<NavLink
 											to={path}
 											className={({ isActive }) =>
