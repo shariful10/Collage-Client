@@ -1,3 +1,3 @@
-![screenshot]('../collage/src/assets/logo.png)
-### Site Name: [Collage Admission](https://github.com/)
-### Live Preview: [Collage](https://github.com/)
+![screenshot](https://i.ibb.co/pvJwCsT/logo.png)
+### Site Name: Collage Admission
+### Live Preview: https://github.com
