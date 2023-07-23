@@ -16,7 +16,7 @@ const Colleges = () => {
 	return (
 		<Container>
 			<Helmet>
-				<title>College Details | Academia Collage</title>
+				<title>Colleges | Academia Collage</title>
 			</Helmet>
 			<SectionCover title="Colleges" />
 			<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 2xl:gap-12">

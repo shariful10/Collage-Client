@@ -8,7 +8,7 @@ const ResearchPaper = () => {
 		<Container>
 			<section className="my-[50px] md:my-[100px]">
 				<SectionTitle heading="Research Papers" />
-				<div className="mb-10 w-[230px] md:w-[300px] py-[1px] bg-blue-950 mx-auto"></div>
+				<div className="mb-10 w-[250px] md:w-[300px] py-[1px] bg-blue-950 mx-auto"></div>
 				<div className="grid md:grid-cols-2 gap-6">
 					<div className="flex">
 						<img className="h-6 w-6" src="https://i.ibb.co/j8chQCQ/check.png" alt="" />

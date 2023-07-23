@@ -79,7 +79,7 @@ const SignUp = () => {
 								name="name"
 								id="name"
 								placeholder="Enter Your Name Here"
-								className="w-full px-3 py-2 border rounded-md border-gray-300 focus:outline-rose-500 bg-gray-200 text-gray-900"
+								className="w-full px-3 py-2 border rounded-md border-gray-300 focus:outline-blue-950 bg-gray-200 text-gray-900"
 								data-temp-mail-org="0"
 							/>
 						</div>
@@ -99,7 +99,7 @@ const SignUp = () => {
 								id="email"
 								required
 								placeholder="Enter Your Email Here"
-								className="w-full px-3 py-2 border rounded-md border-gray-300 focus:outline-rose-500 bg-gray-200 text-gray-900"
+								className="w-full px-3 py-2 border rounded-md border-gray-300 focus:outline-blue-950 bg-gray-200 text-gray-900"
 								data-temp-mail-org="0"
 							/>
 						</div>
@@ -115,14 +115,14 @@ const SignUp = () => {
 								id="password"
 								required
 								placeholder="*******"
-								className="w-full px-3 py-2 border rounded-md border-gray-300 focus:outline-rose-500 bg-gray-200 text-gray-900"
+								className="w-full px-3 py-2 border rounded-md border-gray-300 focus:outline-blue-950 bg-gray-200 text-gray-900"
 							/>
 						</div>
 					</div>
 					<div>
 						<button
 							type="submit"
-							className="bg-rose-500 w-full rounded-md py-3 text-white"
+							className="bg-blue-950 w-full rounded-md py-3 text-white"
 						>
 							{loading ? (
 								<TbFidgetSpinner className="m-auto animate-spin h-6 w-6" />
@@ -140,7 +140,7 @@ const SignUp = () => {
 				<SocialLogin />
 				<p className="px-6 text-sm text-center text-gray-400">
 					Already have an account?{" "}
-					<Link to="/login" className="hover:underline hover:text-rose-500 text-gray-600">
+					<Link to="/login" className="hover:underline hover:text-blue-950 text-gray-600">
 						Login
 					</Link>
 					.

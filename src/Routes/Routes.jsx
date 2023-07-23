@@ -6,6 +6,9 @@ import Login from "../Pages/Login/Login";
 import SignUp from "../Pages/SignUp/SignUp";
 import CardDetails from "../Pages/Home/Cards/CardDetails";
 import Colleges from "../Pages/Colleges/Colleges";
+import Admission from "../Pages/Admission/Admission";
+import MyCollege from "../Pages/My College/MyCollege";
+import PrivateRoute from "./PrivateRoute";
 
 export const router = createBrowserRouter([
 	{
@@ -19,12 +22,24 @@ export const router = createBrowserRouter([
 			},
 			{
 				path: "/card-details/:id",
-				element: <CardDetails />,
+				element: (
+					<PrivateRoute>
+						<CardDetails />
+					</PrivateRoute>
+				),
 				loader: ({ params }) => fetch(`${import.meta.env.VITE_URL}/collage/${params.id}`),
 			},
 			{
 				path: "/colleges",
 				element: <Colleges />,
+			},
+			{
+				path: "/admission",
+				element: <Admission />,
+			},
+			{
+				path: "/my-college",
+				element: <MyCollege />,
 			},
 			{
 				path: "/login",

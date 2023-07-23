@@ -1,10 +1,22 @@
 import React from "react";
 import Buttons from "../../../Components/Button/Buttons";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import { useAuth } from "../../../Components/Hooks/useAuth";
+import { toast } from "react-hot-toast";
 
 const CardData = ({ card }) => {
 	const { _id, college_image, college_name, admission_date, research_count, events, sports } =
 		card;
+	const { user } = useAuth();
+	const navigate = useNavigate();
+	const location = useLocation();
+
+	const handleDetails = () => {
+		if (!user) {
+			toast.error("You have to logged in first");
+			navigate("/login", { state: { from: location } });
+		}
+	};
 
 	return (
 		<div className="card w-full bg-base-100 shadow-xl rounded-lg">
@@ -36,7 +48,7 @@ const CardData = ({ card }) => {
 					</span>
 				</p>
 				<Link to={`/card-details/${_id}`}>
-					<div className="card-actions justify-end">
+					<div onClick={handleDetails} className="card-actions justify-end">
 						<Buttons children="Details" />
 					</div>
 				</Link>

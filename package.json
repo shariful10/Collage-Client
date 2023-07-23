@@ -21,6 +21,7 @@
     "react-icons": "^4.10.1",
     "react-router-dom": "^6.14.2",
     "react-spinners": "^0.13.8",
+    "react-tooltip": "^5.18.1",
     "sort-by": "^1.2.0",
     "swiper": "^10.0.4"
   },

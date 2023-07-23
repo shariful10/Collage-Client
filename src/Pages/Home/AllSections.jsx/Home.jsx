@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet-async";
 import Cards from "../Cards/Cards";
 import Gallery from "../Gallery/Gallery";
 import ResearchPaper from "../ResearchPaper/ResearchPaper";
+import Reviews from "../Reviews/Reviews";
 
 const Home = () => {
 	return (
@@ -15,6 +16,7 @@ const Home = () => {
 			<Cards />
 			<Gallery />
 			<ResearchPaper />
+			<Reviews />
 		</>
 	);
 };

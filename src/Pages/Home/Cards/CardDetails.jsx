@@ -6,14 +6,9 @@ import Container from "../../../Shared/Container/Container";
 
 const CardDetails = () => {
 	const singleCardData = useLoaderData();
-	console.log(singleCardData);
 	const {
-		_id,
 		college_image,
 		college_name,
-		admission_date,
-		research_count,
-		events,
 		sports,
 		event_description,
 		admission_process,

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, useRouteError } from "react-router-dom";
 import Face from "./Face";
+import Buttons from "../Button/Buttons";
 // import { FaceFrownIcon } from '@heroicons/react/24/solid'
 
 const ErrorPage = () => {
@@ -11,18 +12,15 @@ const ErrorPage = () => {
 			<div className="container flex flex-col items-center justify-center px-5 mx-auto my-8">
 				<Face />
 				<div className="max-w-md text-center">
-					<h2 className="mb-8 font-extrabold text-9xl text-blue-400">
+					<h2 className="mb-8 font-extrabold text-9xl text-blue-950">
 						<span className="sr-only">Error</span>
 						{status || 404}
 					</h2>
 					<p className="text-2xl font-semibold md:text-3xl text-red-800 mb-8">
 						{error?.message}
 					</p>
-					<Link
-						to="/"
-						className="bg-blue-400 px-5 py-4 rounded-md text-white font-semibold"
-					>
-						Back to Home
+					<Link to="/">
+						<Buttons children="Back to Home" />
 					</Link>
 				</div>
 			</div>
