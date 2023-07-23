@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
+import Buttons from "./../../../Components/Button/Buttons";
 
 const Banner = () => {
 	return (
@@ -18,7 +19,8 @@ const Banner = () => {
 							resources to navigate the admission process seamlessly. Your educational
 							journey starts here!
 						</p>
-						<button className="bg-blue-950 py-3 px-5 rounded-md">See More</button>
+						{/* <button className="bg-blue-950 py-3 px-5 rounded-md">See More</button> */}
+						<Buttons children="See More" />
 					</div>
 				</div>
 			</SwiperSlide>
@@ -33,7 +35,7 @@ const Banner = () => {
 							resources to navigate the admission process seamlessly. Your educational
 							journey starts here!
 						</p>
-						<button className="bg-blue-950 py-3 px-5 rounded-md">See More</button>
+						<Buttons children="See More" />
 					</div>
 				</div>
 			</SwiperSlide>
@@ -48,7 +50,7 @@ const Banner = () => {
 							resources to navigate the admission process seamlessly. Your educational
 							journey starts here!
 						</p>
-						<button className="bg-blue-950 py-3 px-5 rounded-md">See More</button>
+						<Buttons children="See More" />
 					</div>
 				</div>
 			</SwiperSlide>

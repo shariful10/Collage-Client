@@ -1,3 +1,3 @@
-![screenshot](https://i.ibb.co/pvJwCsT/logo.png)
-### Site Name: Collage Admission
+![screenshot](https://i.ibb.co/6v0dhGt/collage.png)
+### Site Name: Academia Collage
 ### Live Preview: https://github.com

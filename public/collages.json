@@ -1,0 +1,392 @@
+[
+	{
+		"college_image": "https://i.ibb.co/c1y0vTR/banner-2.jpg",
+		"college_name": "XYZ College",
+		"college_rating": 4.2,
+		"research_works": [
+			{
+				"title": "Study of Renewable Energy Sources",
+				"authors": ["John Doe", "Jane Smith"],
+				"publication_date": "2022-11-20",
+				"summary": "This research work examines the feasibility of implementing renewable energy sources in the local community. It analyzes the potential of solar, wind, and biomass energy as sustainable alternatives."
+			},
+			{
+				"title": "Advancements in Artificial Intelligence",
+				"authors": ["Michael Brown", "Emily Johnson", "David Lee"],
+				"publication_date": "2023-02-15",
+				"summary": "The paper explores recent advancements in artificial intelligence and its applications in various industries, including healthcare, finance, and autonomous systems."
+			}
+		],
+		"admission_date": "2023-09-05",
+		"admission_process": [
+			{
+				"eligibility_criteria": "Candidates must have completed high school with a minimum of 50% marks."
+			},
+			{
+				"application_process": "Prospective students can apply online through the college website or offline by obtaining an application form from the admissions office."
+			},
+			{
+				"selection_process": "Admission is based on a combination of academic performance and performance in the college's entrance examination."
+			}
+		],
+		"research_count": 80,
+		"event_description": "The Annual Cultural Fest is a celebration of diversity and creativity. Students showcase their talents in various art forms, music, dance, and theater performances.",
+		"events": [
+			{
+				"event_name": "Science Symposium",
+				"event_date": "2023-12-15",
+				"event_location": "Science Block"
+			},
+			{
+				"event_name": "Literary Fest",
+				"event_date": "2024-02-28",
+				"event_location": "Library Hall"
+			}
+		],
+		"sports": [
+			{
+				"sport_name": "Cricket",
+				"team_count": 3,
+				"players_count": 35,
+				"coach": "John Smith",
+				"captain": "Michael Johnson",
+				"training_schedule": "Monday to Friday, 4:00 PM - 6:00 PM",
+				"home_ground": "Campus Stadium"
+			},
+			{
+				"sport_name": "Basketball",
+				"team_count": 1,
+				"players_count": 10,
+				"coach": "Sarah Williams",
+				"captain": "Emily Davis",
+				"training_schedule": "Tuesday, Thursday, Saturday - 5:00 PM to 7:00 PM",
+				"home_ground": "Basketball Court"
+			}
+		]
+	},
+	{
+		"college_image": "https://i.ibb.co/nCb5QNM/gallery-4.jpg",
+		"college_name": "LMN University",
+		"college_rating": 4.5,
+		"research_works": [
+			{
+				"title": "Study of Renewable Energy Sources",
+				"authors": ["John Doe", "Jane Smith"],
+				"publication_date": "2022-11-20",
+				"summary": "This research work examines the feasibility of implementing renewable energy sources in the local community. It analyzes the potential of solar, wind, and biomass energy as sustainable alternatives."
+			},
+			{
+				"title": "Advancements in Artificial Intelligence",
+				"authors": ["Michael Brown", "Emily Johnson", "David Lee"],
+				"publication_date": "2023-02-15",
+				"summary": "The paper explores recent advancements in artificial intelligence and its applications in various industries, including healthcare, finance, and autonomous systems."
+			}
+		],
+		"admission_date": "2023-08-15",
+		"admission_process": [
+			{
+				"eligibility_criteria": "Candidates must have completed high school with a minimum of 50% marks."
+			},
+			{
+				"application_process": "Prospective students can apply online through the college website or offline by obtaining an application form from the admissions office."
+			},
+			{
+				"selection_process": "Admission is based on a combination of academic performance and performance in the college's entrance examination."
+			}
+		],
+		"research_count": 180,
+		"event_description": "The Annual Cultural Fest is a celebration of diversity and creativity. Students showcase their talents in various art forms, music, dance, and theater performances.",
+		"events": [
+			{
+				"event_name": "Cultural Night",
+				"event_date": "2023-12-08",
+				"event_location": "Amphitheater"
+			},
+			{
+				"event_name": "Business Conclave",
+				"event_date": "2024-02-25",
+				"event_location": "Management Hall"
+			}
+		],
+		"sports": [
+			{
+				"sport_name": "Soccer",
+				"team_count": 3,
+				"players_count": 30,
+				"coach": "John Smith",
+				"captain": "Michael Johnson",
+				"training_schedule": "Monday to Friday, 4:00 PM - 6:00 PM",
+				"home_ground": "Campus Stadium"
+			},
+			{
+				"sport_name": "Table Tennis",
+				"team_count": 1,
+				"players_count": 6,
+				"coach": "Sarah Williams",
+				"captain": "Emily Davis",
+				"training_schedule": "Tuesday, Thursday, Saturday - 5:00 PM to 7:00 PM",
+				"home_ground": "Basketball Court"
+			}
+		]
+	},
+	{
+		"college_image": "https://i.ibb.co/WW32bJZ/banner-1.jpg",
+		"college_name": "ABC University",
+		"college_rating": 4.7,
+		"research_works": [
+			{
+				"title": "Study of Renewable Energy Sources",
+				"authors": ["John Doe", "Jane Smith"],
+				"publication_date": "2022-11-20",
+				"summary": "This research work examines the feasibility of implementing renewable energy sources in the local community. It analyzes the potential of solar, wind, and biomass energy as sustainable alternatives."
+			},
+			{
+				"title": "Advancements in Artificial Intelligence",
+				"authors": ["Michael Brown", "Emily Johnson", "David Lee"],
+				"publication_date": "2023-02-15",
+				"summary": "The paper explores recent advancements in artificial intelligence and its applications in various industries, including healthcare, finance, and autonomous systems."
+			}
+		],
+		"admission_date": "2023-08-20",
+		"admission_process": [
+			{
+				"eligibility_criteria": "Candidates must have completed high school with a minimum of 50% marks."
+			},
+			{
+				"application_process": "Prospective students can apply online through the college website or offline by obtaining an application form from the admissions office."
+			},
+			{
+				"selection_process": "Admission is based on a combination of academic performance and performance in the college's entrance examination."
+			}
+		],
+		"research_count": 150,
+		"event_description": "The Annual Cultural Fest is a celebration of diversity and creativity. Students showcase their talents in various art forms, music, dance, and theater performances.",
+		"events": [
+			{
+				"event_name": "Annual Cultural Fest",
+				"event_date": "2023-11-10",
+				"event_location": "Main Auditorium"
+			},
+			{
+				"event_name": "Tech Expo",
+				"event_date": "2024-03-05",
+				"event_location": "Engineering Building"
+			}
+		],
+		"sports": [
+			{
+				"sport_name": "Football",
+				"team_count": 2,
+				"players_count": 25,
+				"coach": "John Smith",
+				"captain": "Michael Johnson",
+				"training_schedule": "Monday to Friday, 4:00 PM - 6:00 PM",
+				"home_ground": "Campus Stadium"
+			},
+			{
+				"sport_name": "Volleyball",
+				"team_count": 1,
+				"players_count": 12,
+				"coach": "Sarah Williams",
+				"captain": "Emily Davis",
+				"training_schedule": "Tuesday, Thursday, Saturday - 5:00 PM to 7:00 PM",
+				"home_ground": "Basketball Court"
+			}
+		]
+	},
+	{
+		"college_image": "https://i.ibb.co/M7ZdJ0d/gallery-7.jpg",
+		"college_name": "PQR College",
+		"college_rating": 4.3,
+		"research_works": [
+			{
+				"title": "Study of Renewable Energy Sources",
+				"authors": ["John Doe", "Jane Smith"],
+				"publication_date": "2022-11-20",
+				"summary": "This research work examines the feasibility of implementing renewable energy sources in the local community. It analyzes the potential of solar, wind, and biomass energy as sustainable alternatives."
+			},
+			{
+				"title": "Advancements in Artificial Intelligence",
+				"authors": ["Michael Brown", "Emily Johnson", "David Lee"],
+				"publication_date": "2023-02-15",
+				"summary": "The paper explores recent advancements in artificial intelligence and its applications in various industries, including healthcare, finance, and autonomous systems."
+			}
+		],
+		"admission_date": "2023-09-10",
+		"admission_process": [
+			{
+				"eligibility_criteria": "Candidates must have completed high school with a minimum of 50% marks."
+			},
+			{
+				"application_process": "Prospective students can apply online through the college website or offline by obtaining an application form from the admissions office."
+			},
+			{
+				"selection_process": "Admission is based on a combination of academic performance and performance in the college's entrance examination."
+			}
+		],
+		"research_count": 100,
+		"event_description": "The Annual Cultural Fest is a celebration of diversity and creativity. Students showcase their talents in various art forms, music, dance, and theater performances.",
+		"events": [
+			{
+				"event_name": "Tech Fest",
+				"event_date": "2023-11-25",
+				"event_location": "Campus Square"
+			},
+			{
+				"event_name": "Literary Symposium",
+				"event_date": "2024-03-15",
+				"event_location": "Auditorium"
+			}
+		],
+		"sports": [
+			{
+				"sport_name": "Hockey",
+				"team_count": 2,
+				"players_count": 18,
+				"coach": "John Smith",
+				"captain": "Michael Johnson",
+				"training_schedule": "Monday to Friday, 4:00 PM - 6:00 PM",
+				"home_ground": "Campus Stadium"
+			},
+			{
+				"sport_name": "Athletics",
+				"team_count": 1,
+				"players_count": 12,
+				"coach": "Sarah Williams",
+				"captain": "Emily Davis",
+				"training_schedule": "Tuesday, Thursday, Saturday - 5:00 PM to 7:00 PM",
+				"home_ground": "Basketball Court"
+			}
+		]
+	},
+	{
+		"college_image": "https://i.ibb.co/ZJbbSSj/banner-3.jpg",
+		"college_name": "EFG Institute",
+		"college_rating": 4.9,
+		"research_works": [
+			{
+				"title": "Study of Renewable Energy Sources",
+				"authors": ["John Doe", "Jane Smith"],
+				"publication_date": "2022-11-20",
+				"summary": "This research work examines the feasibility of implementing renewable energy sources in the local community. It analyzes the potential of solar, wind, and biomass energy as sustainable alternatives."
+			},
+			{
+				"title": "Advancements in Artificial Intelligence",
+				"authors": ["Michael Brown", "Emily Johnson", "David Lee"],
+				"publication_date": "2023-02-15",
+				"summary": "The paper explores recent advancements in artificial intelligence and its applications in various industries, including healthcare, finance, and autonomous systems."
+			}
+		],
+		"admission_date": "2023-10-01",
+		"admission_process": [
+			{
+				"eligibility_criteria": "Candidates must have completed high school with a minimum of 50% marks."
+			},
+			{
+				"application_process": "Prospective students can apply online through the college website or offline by obtaining an application form from the admissions office."
+			},
+			{
+				"selection_process": "Admission is based on a combination of academic performance and performance in the college's entrance examination."
+			}
+		],
+		"research_count": 300,
+		"event_description": "The Annual Cultural Fest is a celebration of diversity and creativity. Students showcase their talents in various art forms, music, dance, and theater performances.",
+		"events": [
+			{
+				"event_name": "Annual Science Exhibition",
+				"event_date": "2023-11-20",
+				"event_location": "Campus A"
+			},
+			{
+				"event_name": "Sports Meet",
+				"event_date": "2024-03-10",
+				"event_location": "Sports Complex"
+			}
+		],
+		"sports": [
+			{
+				"sport_name": "Tennis",
+				"team_count": 2,
+				"players_count": 20,
+				"coach": "John Smith",
+				"captain": "Michael Johnson",
+				"training_schedule": "Monday to Friday, 4:00 PM - 6:00 PM",
+				"home_ground": "Campus Stadium"
+			},
+			{
+				"sport_name": "Badminton",
+				"team_count": 1,
+				"players_count": 8,
+				"coach": "Sarah Williams",
+				"captain": "Emily Davis",
+				"training_schedule": "Tuesday, Thursday, Saturday - 5:00 PM to 7:00 PM",
+				"home_ground": "Basketball Court"
+			}
+		]
+	},
+	{
+		"college_image": "https://i.ibb.co/7jZJLY3/gallery-11.jpg",
+		"college_name": "RST Institute",
+		"college_rating": 4.6,
+		"research_works": [
+			{
+				"title": "Study of Renewable Energy Sources",
+				"authors": ["John Doe", "Jane Smith"],
+				"publication_date": "2022-11-20",
+				"summary": "This research work examines the feasibility of implementing renewable energy sources in the local community. It analyzes the potential of solar, wind, and biomass energy as sustainable alternatives."
+			},
+			{
+				"title": "Advancements in Artificial Intelligence",
+				"authors": ["Michael Brown", "Emily Johnson", "David Lee"],
+				"publication_date": "2023-02-15",
+				"summary": "The paper explores recent advancements in artificial intelligence and its applications in various industries, including healthcare, finance, and autonomous systems."
+			}
+		],
+		"admission_date": "2023-10-05",
+		"admission_process": [
+			{
+				"eligibility_criteria": "Candidates must have completed high school with a minimum of 50% marks."
+			},
+			{
+				"application_process": "Prospective students can apply online through the college website or offline by obtaining an application form from the admissions office."
+			},
+			{
+				"selection_process": "Admission is based on a combination of academic performance and performance in the college's entrance examination."
+			}
+		],
+		"research_count": 220,
+		"event_description": "The Annual Cultural Fest is a celebration of diversity and creativity. Students showcase their talents in various art forms, music, dance, and theater performances.",
+		"events": [
+			{
+				"event_name": "Science Expo",
+				"event_date": "2023-11-30",
+				"event_location": "Science Block"
+			},
+			{
+				"event_name": "Cultural Carnival",
+				"event_date": "2024-03-20",
+				"event_location": "Campus Ground"
+			}
+		],
+		"sports": [
+			{
+				"sport_name": "Rugby",
+				"team_count": 2,
+				"players_count": 25,
+				"coach": "John Smith",
+				"captain": "Michael Johnson",
+				"training_schedule": "Monday to Friday, 4:00 PM - 6:00 PM",
+				"home_ground": "Campus Stadium"
+			},
+			{
+				"sport_name": "Chess",
+				"team_count": 1,
+				"players_count": 5,
+				"coach": "Sarah Williams",
+				"captain": "Emily Davis",
+				"training_schedule": "Tuesday, Thursday, Saturday - 5:00 PM to 7:00 PM",
+				"home_ground": "Basketball Court"
+			}
+		]
+	}
+]
