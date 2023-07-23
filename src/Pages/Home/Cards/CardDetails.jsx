@@ -27,7 +27,7 @@ const CardDetails = () => {
 			</Helmet>
 			<SectionCover title="Cart Details" />
 			<div className="grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-12 items-center rounded-xl shadow-2xl my-[50px] md:my-[100px]">
-				<img className="rounded-t-lg md:rounded-l-lg min-h-full" src={college_image} alt="Movie" />
+				<img className="rounded-t-lg md:rounded-tr-none md:rounded-l-lg min-h-full" src={college_image} alt="Movie" />
 				<div className="pr-5 md:pr-8 lg:pr-10 px-5 py-5">
 					<h4 className="text-2xl font-semibold">
 						Collage Name: <span className="font-normal">{college_name}</span>

@@ -19,7 +19,7 @@ const Cards = () => {
 				<div className="mb-10 w-[200px] md:w-[250px] py-[1px] bg-blue-950 mx-auto">
 				</div>
 				<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 2xl:gap-12">
-					{cards.slice(0, 3).map((card) => (
+					{cards.slice(1, 4).map((card) => (
 						<CardData key={card._id} card={card} />
 					))}
 				</div>
