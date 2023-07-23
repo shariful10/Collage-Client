@@ -7,7 +7,7 @@ export default {
 				banner1: "url(https://i.ibb.co/6wChJMV/banner-3.jpg)",
 				banner2: "url(https://i.ibb.co/Y3QKpXB/banner-1.jpg)",
 				banner3: "url(https://i.ibb.co/D9cMcv5/banner-2.jpg)",
-				cover: "url(https://i.ibb.co/XC1DDKp/cover.jpg)",
+				coverImg: "url(https://i.ibb.co/XC1DDKp/cover.jpg)",
 			},
 		},
 	},
