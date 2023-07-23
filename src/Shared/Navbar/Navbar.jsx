@@ -19,7 +19,7 @@ const Navbar = () => {
 						<nav>
 							<ul className="hidden lg:flex">
 								{navItems.map(({ path, title }) => (
-									<li key={title} className="mx-4 text-[18px] font-medium">
+									<li key={title} className="mx-1 lg:mx-2 2xl:mx-4 text-[16px] xl:text-[18px] font-medium">
 										<NavLink
 											to={path}
 											className={({ isActive }) =>
@@ -30,7 +30,7 @@ const Navbar = () => {
 										</NavLink>
 									</li>
 								))}
-								<li className="mx-4 text-[18px] font-medium">
+								<li className="mx-1 lg:mx-2 2xl:mx-4 text-[16px] xl:text-[18px] font-medium">
 									<NavLink
 										onClick={() => setIsOpen(false)}
 										className={({ isActive }) =>
@@ -47,13 +47,13 @@ const Navbar = () => {
 											logOut();
 											setIsOpen(false);
 										}}
-										className="mx-4 text-[18px] font-medium hover:text-blue-400 cursor-pointer"
+										className="mx-1 lg:mx-2 2xl:mx-4 text-[16px] xl:text-[18px] font-medium hover:text-blue-400 cursor-pointer"
 									>
 										Logout
 									</li>
 								) : (
 									<>
-										<li className="mx-4 text-[18px] font-medium">
+										<li className="mx-1 lg:mx-2 2xl:mx-4 text-[16px] xl:text-[18px] font-medium">
 											<NavLink
 												onClick={() => setIsOpen(false)}
 												className={({ isActive }) =>
@@ -71,7 +71,7 @@ const Navbar = () => {
 						<div className="lg:hidden">
 							<MenuDropdown />
 						</div>
-						{user && <Name />}
+						<div className="hidden lg:block">{user && <Name />}</div>
 					</div>
 				</Container>
 			</div>

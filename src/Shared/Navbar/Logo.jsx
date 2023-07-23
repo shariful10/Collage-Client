@@ -1,15 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/collage.png";
 
 const Logo = () => {
 	return (
-		<div className="flex items-center">
-			<Link to="/">
-				<img className="w-full md:w-[70px] h-auto" src={logo} alt="Logo" />
-			</Link>
-			<h2 className="ml-2 text-xl md:text-3xl font-semibold">Collage Admission</h2>
-		</div>
+		<Link to="/" className="flex items-center">
+			<img className="w-[60px] md:w-[70px] h-auto" src={logo} alt="Logo" />
+			<h2 className="ml-2 text-xl xl:text-3xl font-semibold hidden lg:block">
+				Academia Collage
+			</h2>
+		</Link>
 	);
 };
 

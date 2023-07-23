@@ -16,7 +16,7 @@ const MenuDropdown = () => {
 				{/* Droupdown Menu */}
 				<div
 					onClick={() => setIsOpen(!isOpen)}
-					className="p-4 border-[1px] border-neutral-200 rounded-full flex flex-row items-center gap-3 cursor-pointer transition"
+					className="p-4 border-[1px] border-neutral-400 rounded-full flex flex-row items-center gap-3 cursor-pointer transition"
 				>
 					{isOpen ? (
 						<HiOutlineX className="h-6 w-6" />
@@ -26,11 +26,11 @@ const MenuDropdown = () => {
 				</div>
 			</div>
 			{isOpen && (
-				<div className="absolute rounded-xl shadow-md w-[250px] bg-white overflow-hidden right-0 md:top-12 text-sm py-2">
+				<div className="absolute rounded-xl shadow-md w-[250px] bg-white overflow-hidden right-0 md:top-12 text-sm">
 					<nav className="flex flex-col cursor-pointer">
 						<ul>
 							{user && (
-								<li className="text-[18px] p-4 hover:bg-neutral-200">
+								<li className="text-[18px] p-4 hover:bg-neutral-200 hover:cursor-pointer rounded-t-xl">
 									<Name />
 								</li>
 							)}
@@ -56,7 +56,7 @@ const MenuDropdown = () => {
 											Login
 										</Link>
 									</li>
-									<li className="text-[18px] p-4 hover:bg-neutral-200">
+									<li className="text-[18px] p-4 hover:bg-neutral-200 rounded-b-xl">
 										<Link onClick={() => setIsOpen(false)} to="/signup">
 											Sign Up
 										</Link>

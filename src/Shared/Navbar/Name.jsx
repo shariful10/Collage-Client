@@ -6,7 +6,7 @@ const Name = () => {
 
 	return (
 		<div>
-			<h4 className="text-[18px] font-medium cursor-pointer">{user?.displayName}</h4>
+			<h4 title="View Prifile" className="text-[16px] xl:text-[18px] font-medium cursor-pointer">{user?.displayName}</h4>
 		</div>
 	);
 };
