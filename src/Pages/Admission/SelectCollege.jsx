@@ -9,6 +9,7 @@ import { useLoaderData } from "react-router-dom";
 const SelectCollege = () => {
 	const collegeData = useLoaderData();
 	const { user, loading, setLoading } = useAuth();
+	console.log(user)
 	const emailRef = useRef();
 	console.log(collegeData);
 

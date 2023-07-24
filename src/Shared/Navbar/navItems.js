@@ -7,12 +7,4 @@ export const navItems = [
 		path: "/colleges",
 		title: "Colleges",
 	},
-	{
-		path: "/admission",
-		title: "Admission",
-	},
-	{
-		path: "/my-college",
-		title: "My College",
-	},
 ];

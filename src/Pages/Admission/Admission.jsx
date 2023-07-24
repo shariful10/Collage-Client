@@ -22,11 +22,11 @@ const Admission = () => {
 				</Helmet>
 				<SectionCover title="Admission" />
 				<div className="my-[50px] md:my-[100px]">
-					<table className="table">
+					<table className="table overflow-x-hidden">
 						<thead className="bg-blue-950 text-white rounded-t-lg">
 							<tr>
 								<th>No.</th>
-								<th>Collage Image</th>
+								<th className="hidden md:block">Collage Image</th>
 								<th>Collage Name</th>
 								<th>Action</th>
 							</tr>
@@ -35,9 +35,9 @@ const Admission = () => {
 							{cards.map(({ _id, college_image, college_name }, index) => (
 								<tr key={_id}>
 									<th>{index + 1}</th>
-									<td>
+									<td className="hidden md:block">
 										<img
-											className="h-[100px] w-[150px] rounded-lg"
+											className="h-[50px] w-[50px] md:h-[100px] md:w-[150px] rounded-lg"
 											src={college_image}
 											alt="College Image"
 										/>
@@ -45,7 +45,7 @@ const Admission = () => {
 									<th>{college_name}</th>
 									<td>
 										<Link to={`/select-college/${_id}`}>
-											<Buttons children="Select Collage" />
+											<Buttons children="Select" />
 										</Link>
 									</td>
 								</tr>

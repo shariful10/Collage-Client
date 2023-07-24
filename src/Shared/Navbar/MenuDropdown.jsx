@@ -11,7 +11,7 @@ const MenuDropdown = () => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	return (
-		<div className="relative">
+		<div className="relative lg:hidden">
 			<div className="flex flex-row items-center gap-3">
 				{/* Droupdown Menu */}
 				<div
@@ -35,10 +35,29 @@ const MenuDropdown = () => {
 								</li>
 							)}
 							{navItems.map(({ path, title }) => (
-								<li className="text-[18px] p-4 hover:bg-neutral-200">
+								<li
+									onClick={() => setIsOpen(false)}
+									className="text-[18px] p-4 hover:bg-neutral-200"
+								>
 									<Link to={path}>{title}</Link>
 								</li>
 							))}
+							{user && (
+								<>
+									<li
+										onClick={() => setIsOpen(false)}
+										className="text-[18px] p-4 hover:bg-neutral-200"
+									>
+										<Link to="/admission">Admission</Link>
+									</li>
+									<li
+										onClick={() => setIsOpen(false)}
+										className="text-[18px] p-4 hover:bg-neutral-200"
+									>
+										<Link to="/my-college">My College</Link>
+									</li>
+								</>
+							)}
 							{user ? (
 								<li
 									className="text-[18px] p-4 hover:bg-neutral-200"

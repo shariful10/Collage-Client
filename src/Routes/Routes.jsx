@@ -36,16 +36,28 @@ export const router = createBrowserRouter([
 			},
 			{
 				path: "/admission",
-				element: <Admission />,
+				element: (
+					<PrivateRoute>
+						<Admission />
+					</PrivateRoute>
+				),
 			},
 			{
 				path: "/select-college/:id",
-				element: <SelectCollege />,
+				element: (
+					<PrivateRoute>
+						<SelectCollege />
+					</PrivateRoute>
+				),
 				loader: ({ params }) => fetch(`${import.meta.env.VITE_URL}/collage/${params.id}`),
 			},
 			{
 				path: "/my-college",
-				element: <MyCollege />,
+				element: (
+					<PrivateRoute>
+						<MyCollege />
+					</PrivateRoute>
+				),
 			},
 			{
 				path: "/login",

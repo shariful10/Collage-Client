@@ -19,7 +19,10 @@ const Navbar = () => {
 						<nav>
 							<ul className="hidden lg:flex">
 								{navItems.map(({ path, title }) => (
-									<li key={title} className="mx-1 lg:mx-2 2xl:mx-4 text-[16px] xl:text-[18px] font-medium">
+									<li
+										key={title}
+										className="mx-1 lg:mx-2 2xl:mx-4 text-[16px] xl:text-[18px] font-medium"
+									>
 										<NavLink
 											to={path}
 											className={({ isActive }) =>
@@ -30,6 +33,30 @@ const Navbar = () => {
 										</NavLink>
 									</li>
 								))}
+								{user && (
+									<>
+										<li className="mx-1 lg:mx-2 2xl:mx-4 text-[16px] xl:text-[18px] font-medium">
+											<NavLink
+												to="/admission"
+												className={({ isActive }) =>
+													isActive ? "active" : "default"
+												}
+											>
+												Admission
+											</NavLink>
+										</li>
+										<li className="mx-1 lg:mx-2 2xl:mx-4 text-[16px] xl:text-[18px] font-medium">
+											<NavLink
+												to="/my-college"
+												className={({ isActive }) =>
+													isActive ? "active" : "default"
+												}
+											>
+												My College
+											</NavLink>
+										</li>
+									</>
+								)}
 								<li className="mx-1 lg:mx-2 2xl:mx-4 text-[16px] xl:text-[18px] font-medium">
 									<NavLink
 										onClick={() => setIsOpen(false)}
@@ -42,15 +69,17 @@ const Navbar = () => {
 									</NavLink>
 								</li>
 								{user ? (
-									<li
-										onClick={() => {
-											logOut();
-											setIsOpen(false);
-										}}
-										className="mx-1 lg:mx-2 2xl:mx-4 text-[16px] xl:text-[18px] font-medium hover:text-blue-400 cursor-pointer"
-									>
-										Logout
-									</li>
+									<>
+										<li
+											onClick={() => {
+												logOut();
+												setIsOpen(false);
+											}}
+											className="mx-1 lg:mx-2 2xl:mx-4 text-[16px] xl:text-[18px] font-medium hover:text-blue-400 cursor-pointer"
+										>
+											Logout
+										</li>
+									</>
 								) : (
 									<>
 										<li className="mx-1 lg:mx-2 2xl:mx-4 text-[16px] xl:text-[18px] font-medium">
@@ -68,9 +97,7 @@ const Navbar = () => {
 								)}
 							</ul>
 						</nav>
-						<div className="lg:hidden">
-							<MenuDropdown />
-						</div>
+						<MenuDropdown />
 						<div className="hidden lg:block">{user && <Name />}</div>
 					</div>
 				</Container>
