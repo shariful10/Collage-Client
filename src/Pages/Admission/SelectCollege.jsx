@@ -5,6 +5,7 @@ import { useAuth } from "../../Components/Hooks/useAuth";
 import { TbFidgetSpinner } from "react-icons/tb";
 import { toast } from "react-hot-toast";
 import { useLoaderData } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 const SelectCollege = () => {
 	const collegeData = useLoaderData();
@@ -50,6 +51,9 @@ const SelectCollege = () => {
 	return (
 		<Container>
 			<section>
+			<Helmet>
+					<title>Select Collage | Academia Collage</title>
+				</Helmet>
 				<SectionCover title="Select College" />
 				<div className="my-[50px] md:my-[100px]">
 					<form

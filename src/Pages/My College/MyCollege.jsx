@@ -3,6 +3,7 @@ import Container from "../../Shared/Container/Container";
 import { Helmet } from "react-helmet-async";
 import SectionCover from "../../Components/SectionCover/SectionCover";
 import { useAuth } from "../../Components/Hooks/useAuth";
+import Feedback from "./Feedback";
 
 const MyCollege = () => {
 	const { user } = useAuth();
@@ -25,7 +26,8 @@ const MyCollege = () => {
 					{clgData.map(({ _id, image, name, email, address, phone, date }) => (
 						<div
 							key={_id}
-							className="grid md:grid-cols-2 justify-center gap-6 md:gap-8 lg:gap-8 items-center rounded-xl my-[50px]">
+							className="grid md:grid-cols-2 justify-center gap-6 md:gap-8 lg:gap-8 items-center rounded-xl my-[50px]"
+						>
 							<img className="rounded-lg h-[300px]" src={image} alt="image" />
 							<div className="shadow-2xl rounded-lg p-10">
 								<h4 className="text-xl font-semibold">
@@ -52,6 +54,7 @@ const MyCollege = () => {
 						</div>
 					))}
 				</div>
+				<Feedback />
 			</section>
 		</Container>
 	);
