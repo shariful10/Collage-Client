@@ -9,6 +9,7 @@ import Colleges from "../Pages/Colleges/Colleges";
 import Admission from "../Pages/Admission/Admission";
 import MyCollege from "../Pages/My College/MyCollege";
 import PrivateRoute from "./PrivateRoute";
+import SelectCollege from "../Pages/Admission/SelectCollege";
 
 export const router = createBrowserRouter([
 	{
@@ -36,6 +37,11 @@ export const router = createBrowserRouter([
 			{
 				path: "/admission",
 				element: <Admission />,
+			},
+			{
+				path: "/select-college/:id",
+				element: <SelectCollege />,
+				loader: ({ params }) => fetch(`${import.meta.env.VITE_URL}/collage/${params.id}`),
 			},
 			{
 				path: "/my-college",

@@ -9,3 +9,7 @@
 .default {
 	@apply font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400;
 }
+
+.btn-srch {
+	@apply px-5 py-2 bg-blue-950 rounded-lg text-white font-medium;
+}
